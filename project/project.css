@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: black;
+    background-color:white;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+.container{
+    width: 60%;
+    padding-left: 120px; 
+    border-right: 2px solid rgba(128, 128, 128, 0.137);
+    padding-right: 10px;
+  
+}
+
+.heading{
+    padding: 0;
+    width: 100%;
+    background-color: rgb(206, 31, 31);
+    margin: 0;
+}
+
+
+h1{
+    margin-top: 0;
+    padding-left: 10px;  
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: inline;
+    margin-right: 25px;
+    font-weight: normal;
+}
+.header i{
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+span .active{
+    float: right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 25px 20px 0 0;
+}
+.links li{
+    display: inline;
+}
+header{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5; 
+}
+.cite{
+    color: rgba(0,0,0,0.3);
+}
+hr{
+    border-top:1px solid rgba(128, 128, 128, 0.137);
+    margin-right: 60px;
+}
+.image{
+    float:right;
+    width: 400px;
+    margin-left: 10px;
+}
+.text li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.text i{
+    margin-right: 10px;
+}
+.bold{
+    font-weight: bold;
+    text-align: center;
+}
+.bold a{
+    font-size: 17px;
+}
+.bold i{
+    font-size: 20px;
+}
+.text{
+    text-align: justify;
+}
+
+.text ul a{
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 17px;
+}
+.image span{
+    color: rgba(0,0,0,0.3);
+    margin-left: 140px;
+}
+.image p{
+    font-size: 12px;
+}
+#myhr{
+    border-top:1px dashed rgba(39, 39, 39, 0.137);
+}
+
+a:visited{
+    color:purple;
+}
+p{
+    font-weight: normal;
+}
+.brands ul{
+  padding: 0;
+  margin: 0;
+}
+.brands li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.brands a{
+    margin-left: 2px;
+    color: white;
+    padding-right: 6px;  
+}
+.brands li a i{
+    margin-right: 5px;  
+}
+.brands .like{
+    background-color: blue;
+}
+.brands .twitter{
+    background-color: rgb(29,161,242);
+    border-radius: 25px;
+}
+.brands .linkedin{
+    background-color: rgb(0,97,146);
+}
+.brands .linkedin i{
+    font-size: 22px;
+}
+.brands  li input{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;   
+}
+.content{
+   display: inline;  
+    margin-left: 110px;
+}
+.linkss{
+    font-weight: bold;
+}
+.linkss a{
+    color: rgb(0,97,146);
+}
+.footer{
+    margin: auto;
+    background-color: rgb(206, 31, 31);
+    color: white;
+    padding: 20px;
+    word-spacing: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.7;
+}
+.footer p{
+    display: inline;  
+}
+.footer p a{
+    text-decoration: none;
+    color: white;
+}
+.footerb{
+    color: rgba(0,0,0,0.3);
+} 
+
+
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 100%;
+        padding: 0;
+        
+    }
+    .image{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .text{
+        padding: 10px;
+    }
+    .box{
+        display: none;
+    }
+    .bold{
+        display: none;
+        
+    }
+    .brands ul {
+        display: inline;
+        padding: 0;
+        margin: 40px;
+        
+    }
+    .content{
+        margin-left: 32px;
+    }
+    .content ul{
+        display: inline;  
+        padding: 0; 
+        border: 2px solid red;
+     }
+     .content li{
+         padding: 0;
+         margin: 0;
+     }
+      header, .cite{
+         margin-left:20px ;
+     }
+  }
+
+  
+  
